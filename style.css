@@ -360,3 +360,103 @@ body.dark-mode .moon-icon {
   color: var(--green);
   transform: translateY(-2px);
 }
+
+/*SECTIONS*/
+.section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.section-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 16px;
+}
+
+.section h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  color: var(--charcoal);
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+/*ABOUT*/
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.about-text p {
+  color: var(--mid);
+  margin-bottom: 16px;
+}
+
+.about-links {
+  display: flex;
+  gap: 20px;
+}
+
+.about-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--charcoal);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 4px;
+}
+
+.about-links a:hover {
+  color: var(--green);
+  border-color: var(--green);
+  transform: translateY(-2px);
+  transition: all 0.2s ease-in-out;
+}
+
+.about-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 75px;
+}
+
+.card-stat {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 20px;
+  text-align: center;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s,
+    background-color 0.4s ease,
+    border-color 0.4s ease;
+}
+
+.card-stat:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
+}
+
+.card-stat span {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--green);
+  display: block;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.card-stat p {
+  font-size: 0.9rem;
+  color: var(--mid);
+  font-weight: 500;
+}
