@@ -240,3 +240,123 @@ body.dark-mode .moon-icon {
   transform: translateY(0) rotate(0deg);
   opacity: 1;
 }
+
+/* HERO SECTION */
+.hero {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 80px 60px;
+  max-width: 900px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--green-light);
+  color: var(--green-dark);
+  border: 1px solid #b2d9bc;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  width: fit-content;
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  color: var(--green);
+  background: var(--green);
+  border-radius: 999px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(60, 132, 83, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 8px rgba(60, 132, 83, 0);
+  }
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+}
+
+.hero-title em {
+  font-style: italic;
+  color: var(--green);
+}
+
+.cursor {
+  color: var(--green);
+  font-style: normal;
+  animation: blink 0.9s infinite;
+  margin-top: -10px;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  color: var(--mid);
+  margin-bottom: 40px;
+  max-width: 620px;
+}
+
+.hero-cta {
+  display: inline-flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn-work {
+  background-color: var(--charcoal);
+  color: var(--light);
+  padding: 12px 28px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition:
+    background 0.2s,
+    transform 0.2s;
+}
+
+.btn-work:hover {
+  background: var(--green);
+  transform: translateY(-2px);
+}
+
+.btn-linkedin {
+  border: 1.5px solid var(--border);
+  color: var(--charcoal);
+  padding: 12px 28px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: transparent;
+  transition:
+    border-color 0.2s,
+    color 0.2s,
+    transform 0.2s;
+}
+
+.btn-linkedin:hover {
+  border: 1.5px solid var(--green);
+  color: var(--green);
+  transform: translateY(-2px);
+}
