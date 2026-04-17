@@ -638,3 +638,34 @@ body.dark-mode .moon-icon {
     border-color 0.4s ease;
 }
 
+.timeline-item:hover .timeline-content {
+  box-shadow: var(--shadow);
+  transform: translateX(4px);
+}
+
+.timeline-date {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--green);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.timeline-content h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin: 6px 0 2px;
+  color: var(--charcoal);
+}
+
+.timeline-company {
+  font-size: 0.82rem;
+  color: var(--mid);
+  font-weight: 600;
+  margin-bottom: 10px !important;
+}
+
+.timeline-content p {
+  font-size: 0.9rem;
+  color: var(--mid);
+}
