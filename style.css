@@ -584,3 +584,57 @@ body.dark-mode .moon-icon {
   font-size: 0.75rem;
   font-weight: 500;
 }
+
+/*EXPERIENCE*/
+.timeline {
+  position: relative;
+  padding-left: 32px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 1.5px;
+  background: var(--border);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -29px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 2.5px solid var(--green);
+  transition: background 0.2s;
+}
+
+.timeline-item:hover .timeline-dot {
+  background: var(--green);
+}
+
+.timeline-content {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s,
+    background-color 0.4s ease,
+    border-color 0.4s ease;
+}
+
