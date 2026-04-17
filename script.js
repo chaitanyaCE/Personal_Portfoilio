@@ -59,3 +59,5 @@ const observer = new IntersectionObserver(
   },
   { threshold: 0.12 },
 );
+
+fadeEls.forEach((el) => observer.observe(el));
