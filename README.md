@@ -1,4 +1,4 @@
-#🚀 Chaitanya Patel | Personal Portfolio
+# 🚀 Chaitanya Patel | Personal Portfolio
 
 A responsive, interactive personal portfolio website showcasing my projects, skills, and professional experience as a Computer Engineering student at the University of Waterloo. Built entirely with Vanilla HTML, CSS, and JavaScript.
 
