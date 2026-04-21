@@ -77,7 +77,7 @@ LinkedIn: [https://www.linkedin.com/in/chaitanya-patel-uwaterloo/](https://www.l
 
 GitHub: [https://github.com/chaitanyaCE](https://github.com/chaitanyaCE)
 
-Email: c5patel@uwaterloo.ca
+Email: [c5patel@uwaterloo.ca](c5patel@uwaterloo.ca)
 
 ## 📝 License
 
