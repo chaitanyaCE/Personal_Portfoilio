@@ -2,11 +2,11 @@
 
 A responsive, interactive personal portfolio website showcasing my projects, skills, and professional experience as a Computer Engineering student at the University of Waterloo. Built entirely with Vanilla HTML, CSS, and JavaScript.
 
-👨‍💻 About Me
+## 👨‍💻 About Me
 
 First-year Honours Computer Engineering student at the University of Waterloo passionate about front-end web development and UX design. Currently working as a Web Design & UX Intern, I also dedicate my time outside of code to community-based volunteering and digital marketing.
 
-💻 Featured Projects
+## 💻 Featured Projects
 
 TaskFlow SPA: A single-page task manager featuring dynamic DOM manipulation, drag-and-drop interfaces, and persistent browser storage (localStorage).
 
@@ -14,7 +14,7 @@ Expense Tracker: A personal finance web app that tracks real-time balances, visu
 
 JS Quiz Engine: An interactive quiz application with dynamic question generation, instant user feedback, and custom score calculations.
 
-✨ Portfolio Features
+## ✨ Portfolio Features
 
 Dark/Light Mode: A seamless theme switcher that saves user preferences across sessions.
 
@@ -26,7 +26,7 @@ Scroll Spy Navigation: A sticky header with links that dynamically highlight bas
 
 Fully Responsive: Mobile-first design implementation utilizing CSS Grid, Flexbox, and a custom hamburger menu.
 
-🛠️ Skills & Tools
+## 🛠️ Skills & Tools
 
 Languages: JavaScript (ES6+), HTML5, CSS3, Python, C++, SQL
 
@@ -36,7 +36,7 @@ Tools & Platforms: Git, GitHub Pages, VS Code, SQLite
 
 Concepts: Data Structures, Algorithms, Object-Oriented Programming, SEO, Generative AI, UX/UI Design
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 
 ├── index.html                 # The main webpage containing the portfolio content
 ├── style.css                  # Stylesheet for light/dark themes, layout, and responsiveness
@@ -44,24 +44,24 @@ Concepts: Data Structures, Algorithms, Object-Oriented Programming, SEO, Generat
 └── Resume_Chaitanya_Patel.pdf # Downloadable resume linked in the header
 
 
-🚀 How to Run Locally
+## 🚀 How to Run Locally
 
 Since this is a static front-end website, no server environment or dependency installation is required.
 
 Clone the repository:
 
-git clone [https://github.com/chaitanyaCE/your-repo-name.git](https://github.com/chaitanyaCE/your-repo-name.git)
+git clone [https://github.com/chaitanyaCE/Personal_Portfolio.git](https://github.com/chaitanyaCE/Personal_Portfolio.git)
 
 
 Navigate to the project directory:
 
-cd your-repo-name
+cd Personal_Portfolio
 
 
 Open the site:
 Simply double-click the index.html file to open it in your default web browser.
 
-🎨 Customization
+## 🎨 Customization
 
 If you are forking this repository to create your own portfolio, you can easily customize the look and feel:
 
@@ -71,14 +71,14 @@ Typing Animation: Open script.js and modify the phrases array to include your ow
 
 Content: Update index.html with your own projects, experience, and contact information.
 
-📫 Connect with Me
+## 📫 Connect with Me
 
-LinkedIn: chaitanya-patel-uwaterloo
+LinkedIn: [https://www.linkedin.com/in/chaitanya-patel-uwaterloo/](https://www.linkedin.com/in/chaitanya-patel-uwaterloo/)
 
-GitHub: @chaitanyaCE
+GitHub: [https://github.com/chaitanyaCE](https://github.com/chaitanyaCE)
 
 Email: c5patel@uwaterloo.ca
 
-📝 License
+## 📝 License
 
 This project is open source and available under the MIT License.
