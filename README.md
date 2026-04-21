@@ -37,12 +37,12 @@ Tools & Platforms: Git, GitHub Pages, VS Code, SQLite
 Concepts: Data Structures, Algorithms, Object-Oriented Programming, SEO, Generative AI, UX/UI Design
 
 ## 🗂️ Project Structure
-
+```bash
 ├── index.html                 # The main webpage containing the portfolio content
 ├── style.css                  # Stylesheet for light/dark themes, layout, and responsiveness
 ├── script.js                  # Logic for animations, theme toggling, and scroll observers
 └── Resume_Chaitanya_Patel.pdf # Downloadable resume linked in the header
-
+```
 
 ## 🚀 How to Run Locally
 
