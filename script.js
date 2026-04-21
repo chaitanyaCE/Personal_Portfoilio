@@ -72,3 +72,19 @@ navLinks
   .forEach((link) =>
     link.addEventListener("click", () => navLinks.classList.remove("open")),
   );
+
+// YEAR + ACTIVE NAV HIGHLIGHT
+document.getElementById("year").textContent = new Date().getFullYear();
+const sections = document.querySelectorAll("section[id]");
+const navAnchors = document.querySelectorAll(".header-links a[href^='#']");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach((s) => {
+    if (window.scrollY >= s.offsetTop - 80) current = s.getAttribute("id");
+  });
+  navAnchors.forEach((a) => {
+    a.style.color =
+      a.getAttribute("href") === `#${current}` ? "var(--green)" : "";
+  });
+});
