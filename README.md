@@ -1,100 +1,84 @@
-# Chaitanya Patel — Personal Portfolio
+🚀 Chaitanya Patel | Personal Portfolio
 
-A clean, responsive personal portfolio built with vanilla HTML, CSS, and JavaScript. No frameworks, no build tools — just well-structured front-end code.
+A responsive, interactive personal portfolio website showcasing my projects, skills, and professional experience as a Computer Engineering student at the University of Waterloo. Built entirely with Vanilla HTML, CSS, and JavaScript.
 
-🔗 **Live Site:** [chaitanyace.github.io/portfolio](https://chaitanyace.github.io/portfolio) *(update with your actual URL)*
+👨‍💻 About Me
 
----
+First-year Honours Computer Engineering student at the University of Waterloo passionate about front-end web development and UX design. Currently working as a Web Design & UX Intern, I also dedicate my time outside of code to community-based volunteering and digital marketing.
 
-## Overview
+💻 Featured Projects
 
-This portfolio showcases my projects, experience, and skills as a first-year Computer Engineering student at the University of Waterloo. It was designed with a clean editorial aesthetic, dark/light mode support, and a focus on smooth UX.
+TaskFlow SPA: A single-page task manager featuring dynamic DOM manipulation, drag-and-drop interfaces, and persistent browser storage (localStorage).
 
----
+Expense Tracker: A personal finance web app that tracks real-time balances, visualizes spending trends, and features dynamic profit/loss styling.
 
-## Features
+JS Quiz Engine: An interactive quiz application with dynamic question generation, instant user feedback, and custom score calculations.
 
-- **Responsive Design** — mobile-first layout with a hamburger nav for small screens
-- **Dark / Light Mode** — toggle persists via `localStorage`
-- **Typed Hero Animation** — cycling phrases built without any library
-- **Scroll Fade-In** — sections animate in using `IntersectionObserver`
-- **Active Nav Highlight** — nav links highlight based on current scroll position
-- **Zero Dependencies** — no npm, no bundler, no framework
+✨ Portfolio Features
 
----
+Dark/Light Mode: A seamless theme switcher that saves user preferences across sessions.
 
-## Tech Stack
+Dynamic Typing: A custom JavaScript typewriter effect in the hero section.
 
-| Layer | Choice |
-|-------|--------|
-| Markup | HTML5 (semantic) |
-| Styling | CSS3 (custom properties, Grid, Flexbox) |
-| Logic | Vanilla JavaScript (ES6+) |
-| Fonts | DM Serif Display + DM Sans (Google Fonts) |
-| Icons | Font Awesome 6 |
-| Hosting | GitHub Pages |
+Scroll Animations: Smooth fade-in section transitions using the Intersection Observer API.
 
----
+Scroll Spy Navigation: A sticky header with links that dynamically highlight based on the current viewport.
 
-## Project Structure
+Fully Responsive: Mobile-first design implementation utilizing CSS Grid, Flexbox, and a custom hamburger menu.
 
-```
-portfolio/
-├── index.html          # Main HTML — all sections live here
-├── style.css           # All styles, CSS variables, dark mode, responsive
-├── script.js           # Theme toggle, typed text, scroll animations, nav
-└── Resume_Chaitanya_Patel.pdf
-```
+🛠️ Skills & Tools
 
----
+Languages: JavaScript (ES6+), HTML5, CSS3, Python, C++, SQL
 
-## Sections
+Frameworks & Libraries: React (Currently Learning), TypeScript (Currently Learning)
 
-| # | Section | Description |
-|---|---------|-------------|
-| 01 | About | Bio, stats (graduation, projects, volunteering), social links |
-| 02 | Skills | Skill chips: JS, HTML, CSS, React, Python, C++, Git, SQL, SEO, AI |
-| 03 | Projects | Cards for TaskFlow SPA, Expense Tracker, JS Quiz Engine |
-| 04 | Experience | Timeline: co-op, UWaterloo, YDS Canada |
-| 05 | Contact | CTA box with email link and social icons |
+Tools & Platforms: Git, GitHub Pages, VS Code, SQLite
 
----
+Concepts: Data Structures, Algorithms, Object-Oriented Programming, SEO, Generative AI, UX/UI Design
 
-## Running Locally
+🗂️ Project Structure
 
-No build step needed.
+├── index.html                 # The main webpage containing the portfolio content
+├── style.css                  # Stylesheet for light/dark themes, layout, and responsiveness
+├── script.js                  # Logic for animations, theme toggling, and scroll observers
+└── Resume_Chaitanya_Patel.pdf # Downloadable resume linked in the header
 
-```bash
-git clone https://github.com/chaitanyaCE/portfolio.git
-cd portfolio
-# Open index.html in your browser, or use a local server:
-npx serve .
-```
 
----
+🚀 How to Run Locally
 
-## Projects Featured
+Since this is a static front-end website, no server environment or dependency installation is required.
 
-### TaskFlow SPA
-Single-page task manager with drag-and-drop, `localStorage` persistence, and filter views (All / Active / Completed).
-→ [Repo](https://github.com/chaitanyaCE/TaskFlow-SPA) · [Live](https://chaitanyace.github.io/TaskFlow-SPA/)
+Clone the repository:
 
-### Expense Tracker
-Personal finance tracker with real-time balance updates, colour-coded profit/loss indicator, and persistent sessions via `localStorage`.
-→ [Repo](https://github.com/chaitanyaCE/Expense-Tracker) · [Live](https://chaitanyace.github.io/Expense-Tracker/)
+git clone [https://github.com/chaitanyaCE/your-repo-name.git](https://github.com/chaitanyaCE/your-repo-name.git)
 
-### JS Quiz Engine
-Timed quiz app with randomized questions, score tracking, and a results summary screen.
-→ [Repo](https://github.com/chaitanyaCE/JS-Quiz-Engine) · [Live](https://chaitanyace.github.io/JS-Quiz-Engine/)
 
----
+Navigate to the project directory:
 
-## Contact
+cd your-repo-name
 
-- 📧 c5patel@uwaterloo.ca
-- 💼 [LinkedIn](https://www.linkedin.com/in/chaitanya-patel-uwaterloo/)
-- 🐙 [GitHub](https://github.com/chaitanyaCE)
 
----
+Open the site:
+Simply double-click the index.html file to open it in your default web browser.
 
-*Built from scratch — no templates, no page builders.*
+🎨 Customization
+
+If you are forking this repository to create your own portfolio, you can easily customize the look and feel:
+
+Colors: Open style.css and modify the CSS variables in the :root and body.dark-mode selectors.
+
+Typing Animation: Open script.js and modify the phrases array to include your own custom text.
+
+Content: Update index.html with your own projects, experience, and contact information.
+
+📫 Connect with Me
+
+LinkedIn: chaitanya-patel-uwaterloo
+
+GitHub: @chaitanyaCE
+
+Email: c5patel@uwaterloo.ca
+
+📝 License
+
+This project is open source and available under the MIT License.
