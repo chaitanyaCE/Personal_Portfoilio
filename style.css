@@ -55,7 +55,7 @@ body {
   background: var(--light);
   color: var(--charcoal);
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.7;
   overflow-x: hidden;
 }
@@ -780,5 +780,33 @@ body.dark-mode .moon-icon {
   }
   .contact-box {
     padding: 40px 24px;
+  }
+}
+
+/* --- SCALING FOR LAPTOPS & MONITORS --- */
+
+/* For standard laptops (1024px and up) */
+@media (min-width: 1024px) {
+  html {
+    font-size: 18px; 
+  }
+  .hero {
+    max-width: 1000px;
+  }
+  .section {
+    max-width: 1100px;
+  }
+}
+
+/* For larger laptops and desktop monitors (1440px and up) */
+@media (min-width: 1440px) {
+  html {
+    font-size: 20px;
+  }
+  .hero {
+    max-width: 1100px;
+  }
+  .section {
+    max-width: 1200px;
   }
 }
