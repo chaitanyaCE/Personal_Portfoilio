@@ -668,7 +668,7 @@ body.dark-mode .moon-icon {
   color: var(--mid);
 }
 
-.yds-btn {
+/* .yds-btn {
   display: inline-block;
   margin-top: 14px;
   background: var(--charcoal);
@@ -701,7 +701,7 @@ body.dark-mode .moon-icon {
 
 .yds-btn:hover::before {
   transform: translateX(0);
-}
+} */
 
 /*CONTACt*/
 .contact-box {
