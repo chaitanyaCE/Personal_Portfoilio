@@ -8,33 +8,24 @@ First-year Honours Computer Engineering student at the University of Waterloo pa
 
 ## 💻 Featured Projects
 
-TaskFlow SPA: A single-page task manager featuring dynamic DOM manipulation, drag-and-drop interfaces, and persistent browser storage (localStorage).
+**Expense Tracker**: A personal finance web app that tracks real-time balances, visualizes spending trends, and features dynamic profit/loss styling.
 
-Expense Tracker: A personal finance web app that tracks real-time balances, visualizes spending trends, and features dynamic profit/loss styling.
+**TaskFlow SPA**: A single-page task manager featuring dynamic DOM manipulation, drag-and-drop interfaces, and persistent browser storage (localStorage).
 
-JS Quiz Engine: An interactive quiz application with dynamic question generation, instant user feedback, and custom score calculations.
+**JS Quiz Engine**: An interactive quiz application with dynamic question generation, instant user feedback, and custom score calculations.
 
 ## ✨ Portfolio Features
 
-Dark/Light Mode: A seamless theme switcher that saves user preferences across sessions.
+**Dark/Light Mode**: A seamless theme switcher that saves user preferences across sessions.
 
-Dynamic Typing: A custom JavaScript typewriter effect in the hero section.
+**Dynamic Typing**: A custom JavaScript typewriter effect in the hero section.
 
-Scroll Animations: Smooth fade-in section transitions using the Intersection Observer API.
+**Scroll Animations**: Smooth fade-in section transitions using the Intersection Observer API.
 
-Scroll Spy Navigation: A sticky header with links that dynamically highlight based on the current viewport.
+**Scroll Spy Navigation**: A sticky header with links that dynamically highlight based on the current viewport.
 
-Fully Responsive: Mobile-first design implementation utilizing CSS Grid, Flexbox, and a custom hamburger menu.
+**Fully Responsive//: Mobile-first design implementation utilizing CSS Grid, Flexbox, and a custom hamburger menu.
 
-## 🛠️ Skills & Tools
-
-Languages: JavaScript (ES6+), HTML5, CSS3, Python, C++, SQL
-
-Frameworks & Libraries: React (Currently Learning), TypeScript (Currently Learning)
-
-Tools & Platforms: Git, GitHub Pages, VS Code, SQLite
-
-Concepts: Data Structures, Algorithms, Object-Oriented Programming, SEO, Generative AI, UX/UI Design
 
 ## 🗂️ Project Structure
 ```bash
