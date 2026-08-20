@@ -477,7 +477,7 @@ body.dark-mode .moon-icon {
 
 .skill-category:hover {
   box-shadow: var(--shadow);
-  transform: translateY(-3px);
+  transform: translateY(-33px);
 }
 
 .skill-category h3 {
