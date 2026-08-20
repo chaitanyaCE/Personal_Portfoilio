@@ -461,6 +461,22 @@ body.dark-mode .moon-icon {
 }
 
 /*SKIILS*/
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 36px; /* Provides breathing room between the rows */
+}
+
+.skill-category h3 {
+  font-family: var(--font-body); /* Keeps it modern and secondary to your main H2 */
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mid);
+  margin-bottom: 14px;
+}
+
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
