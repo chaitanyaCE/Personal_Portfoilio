@@ -460,27 +460,42 @@ body.dark-mode .moon-icon {
   font-weight: 500;
 }
 
-/*SKIILS*/
+/* --- SKILLS --- */
 .skills-container {
-  display: flex;
-  flex-direction: column;
-  gap: 36px; /* Provides breathing room between the rows */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.skill-category {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.skill-category:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
 }
 
 .skill-category h3 {
-  font-family: var(--font-body); /* Keeps it modern and secondary to your main H2 */
+  font-family: var(--font-body);
   font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--mid);
-  margin-bottom: 14px;
+  color: var(--green); 
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
 }
 
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 10px;
 }
 
 .skill-chip {
@@ -502,12 +517,6 @@ body.dark-mode .moon-icon {
   background: var(--green-light);
   border-color: #b2d9bc;
   transform: translateY(-2px);
-  box-shadow: var(--shadow);
-}
-
-.skill-chip i {
-  color: var(--green);
-  font-size: 1rem;
 }
 
 /*PROJECTS*/
