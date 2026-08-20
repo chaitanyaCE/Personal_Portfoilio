@@ -509,6 +509,7 @@ body.dark-mode .moon-icon {
   border-color: #b2d9bc;
   transform: translateY(-2px);
 }
+
 /*PROJECTS*/
 .project-grid {
   display: grid;
