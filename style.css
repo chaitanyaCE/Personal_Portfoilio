@@ -409,6 +409,7 @@ body.dark-mode .moon-icon {
   font-weight: 600;
   font-size: 0.9rem;
   color: var(--charcoal);
+  border-bottom: 2px solid var(--border);
   padding-bottom: 4px;
 }
 
@@ -480,7 +481,6 @@ body.dark-mode .moon-icon {
   text-transform: uppercase;
   color: var(--green);
   margin-bottom: 16px;
-  border-bottom: 2px solid var(--green);
 }
 
 .skills-grid {
