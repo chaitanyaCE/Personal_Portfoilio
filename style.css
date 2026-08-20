@@ -481,6 +481,7 @@ body.dark-mode .moon-icon {
   text-transform: uppercase;
   color: var(--green);
   margin-bottom: 16px;
+  border-bottom: 2px solid var(--green);
 }
 
 .skills-grid {
