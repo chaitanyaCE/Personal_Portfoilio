@@ -487,6 +487,11 @@ body.dark-mode .moon-icon {
   padding-bottom: 12px;
 }
 
+.skill-category:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
+}
+
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
