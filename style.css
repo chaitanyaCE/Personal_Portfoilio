@@ -462,17 +462,16 @@ body.dark-mode .moon-icon {
 
 /* --- SKILLS --- */
 .skills-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px; /* Gives breathing room between the category rows */
 }
 
 .skill-category {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 28px 24px;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  /* Stripped away the borders, background, and hover effects */
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
 .skill-category h3 {
@@ -481,21 +480,14 @@ body.dark-mode .moon-icon {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--green); 
-  margin-bottom: 20px;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 12px;
-}
-
-.skill-category:hover {
-  box-shadow: var(--shadow);
-  transform: translateY(-33px);
+  color: var(--mid); /* Reverted to the subtle muted grey to match your labels */
+  margin-bottom: 16px;
 }
 
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 .skill-chip {
