@@ -473,11 +473,6 @@ body.dark-mode .moon-icon {
   padding: 0;
 }
 
-.skill-category:hover {
-  box-shadow: var(--shadow);
-  transform: translateY(-3px);
-}
-
 .skill-category h3 {
   font-family: var(--font-body);
   font-size: 0.85rem;
